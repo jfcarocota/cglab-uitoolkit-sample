@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    align-items: center;
+}
+
+.btnHello {
+    width: 15%;
+    height: 100px;
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.btnHello:hover {
+    width: 15%;
+    height: 100px;
+    margin-top: 80px;
+    background-color: rgb(155, 211, 255);
+    font-size: 28px;
+}
+
+.btnLabel {
+    width: 30%;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+    -unity-text-align: middle-center;
+    color: rgba(255, 255, 255, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgba(255, 248, 0, 255);
+    border-right-color: rgba(255, 248, 0, 255);
+    border-top-color: rgba(255, 248, 0, 255);
+    border-bottom-color: rgba(255, 248, 0, 255);
+}

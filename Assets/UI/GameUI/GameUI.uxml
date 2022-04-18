@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUI/GameUI.uss?fileID=7433441132597879392&amp;guid=b8850c34385300844b224f089aa7e0cc&amp;type=3#GameUI" />
+    <ui:VisualElement name="container" class="container">
+        <ui:Button text="Say Hello" display-tooltip-when-elided="true" name="btnHello" class="btnHello" style="display: none;" />
+        <ui:Label text="Hello Label" display-tooltip-when-elided="true" name="btnLabel" class="btnLabel" />
+    </ui:VisualElement>
+</ui:UXML>
