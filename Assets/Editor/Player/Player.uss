@@ -1,0 +1,37 @@
+.container {
+    align-items: flex-start;
+    border-bottom-width: 2px;
+    border-left-color: rgba(113, 113, 113, 255);
+    border-right-color: rgba(113, 113, 113, 255);
+    border-top-color: rgba(113, 113, 113, 255);
+    border-bottom-color: rgba(113, 113, 113, 255);
+}
+
+.fieldElement {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.healthBarContainer {
+    align-items: center;
+    margin-top: 5px;
+}
+
+.healthBar {
+}
+
+.healthIndicator {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 255);
+}
+
+.healthPercent {
+    position: absolute;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+}

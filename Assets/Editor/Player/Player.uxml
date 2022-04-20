@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Player/Player.uss?fileID=7433441132597879392&amp;guid=ea7cd2789244cc14ab81c210120e9042&amp;type=3#Player" />
+    <ui:VisualElement name="fieldsContainer" class="container">
+        <uie:FloatField label="Float Field" value="42.2" name="health" class="fieldElement" />
+        <uie:FloatField label="Float Field" value="42.2" name="maxHealth" class="fieldElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="heatlhBarContainer" class="healthBarContainer">
+        <ui:VisualElement name="healthBar" class="healthBar" style="height: 50px; width: 100%; background-color: rgb(255, 95, 95);">
+            <ui:VisualElement name="healthIndicator" class="healthIndicator" />
+        </ui:VisualElement>
+        <ui:Label text="100%" display-tooltip-when-elided="true" name="healthPercent" class="healthPercent" />
+    </ui:VisualElement>
+</ui:UXML>
